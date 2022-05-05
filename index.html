@@ -14,7 +14,10 @@
 </head>
 <body>
     <div id="root">
-        <h1></h1>
+        <div class="container">
+            <h1 :class="color">{{ mainTitle }}</h1>
+            <img :src="image" :alt="imageAlt">
+        </div>
     </div>
 
     <!-- Scripts -->
