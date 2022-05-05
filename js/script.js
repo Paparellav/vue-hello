@@ -10,5 +10,11 @@ const app = new Vue(
             image: 'https://www.filepicker.io/api/file/PrjQ7ZxTQye3aR2Tzt3N',
             color: 'blue'
         },
+
+        methods: {
+            changeColor: function() {
+                this.color = 'red';
+            }
+        },
     }
 );
